@@ -1,0 +1,32 @@
+{
+    "name": "darkstar",
+    "displayName": "DarkStar",
+    "publisher": "DarkStar",
+    "description": "Tema para desenvolvedores Flutter/Dart.",
+    "version": "0.0.5",
+    "keywords": ["DarkStar Theme", "DarkStar", "Dark Star", "Flutter Theme", "Dart Theme"],
+    "icon": "images/darkstar.png",
+    "author": {
+        "name": "Lucas Emanuel Silva",
+        "email": "lucassilva080397@gmail.com",
+        "url": "https://github.com/lucas3g"
+    },
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "DarkStar",
+                "uiTheme": "vs-dark",
+                "path": "./themes/DarkStar-color-theme.json"
+            }
+        ]
+    },
+    "main": "./out/extension",
+    "activationEvents": ["onLanguage:markdown"],
+    "license": "MIT"
+}
